@@ -1,0 +1,45 @@
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+.robot {
+	width: 320px;
+	position: relative;
+}
+div .body {
+width: 320px;
+	position: relative;
+	right: -26%;
+	top: 57px;
+	overflow: hidden;
+}
+.brain {
+	width: 46px;
+	position: absolute;
+	right: 17%;
+	bottom: -25em;
+	transition: all 250ms linear;
+}
+.head-right {
+	width: 125px;
+	position: absolute;
+	right: -15%;
+	top: 20px;
+}
+.head-left {
+	width: 125px;
+		position: absolute;
+	right: 24%;
+	top: 20px;
+}
+header {
+	background-color: navy;
+	overflow: hidden;
+	height:  242px;
+}
+
+header:hover .brain{
+	top: 39px;
+}
