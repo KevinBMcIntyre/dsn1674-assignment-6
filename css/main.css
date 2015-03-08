@@ -20,19 +20,21 @@ width: 320px;
 	position: absolute;
 	right: 17%;
 	bottom: -25em;
-	transition: all 250ms linear;
+	transition: all 500ms linear;
 }
 .head-right {
 	width: 125px;
 	position: absolute;
 	right: -15%;
 	top: 20px;
+	transition: all 250ms linear;
 }
 .head-left {
 	width: 125px;
 		position: absolute;
 	right: 24%;
 	top: 20px;
+	transition: all 250ms linear;
 }
 header {
 	background-color: navy;
@@ -42,4 +44,7 @@ header {
 
 header:hover .brain{
 	top: 39px;
+}
+header:hover .head-right{
+right: -26px;
 }
