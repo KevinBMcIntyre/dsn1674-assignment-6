@@ -1,5 +1,6 @@
 html{
 	box-sizing: border-box;
+	font-family: 'Contrail One', cursive;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -14,9 +15,10 @@ header{
 p{
 	background-color: #1a2230;
 	margin: 0;
-	padding: 2em;
+	padding: 1em;
 	text-align: center;
 	color: white;
+	font-size: 2rem;
 }
 .robot {
 	width: 320px;
