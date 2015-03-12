@@ -12,16 +12,32 @@ html{
 .body {
 width: 320px;
 	position: relative;
+	top: 57px;
 }
 .brain {
 	width: 46px;
 	position: absolute;
+	right: 137px;
+	bottom: 14px;
 }
 .head-right {
 	width: 125px;
 	position: absolute;
+	top: 19px;
+  right: 35px;
 }
 .head-left {
 	width: 125px;
-		position: absolute;
+	position: absolute;
+	top: 19px;
+  left: 35px;
+}
+header:hover .head-right{
+	right: -26px;
+}
+header:hover .head-left{
+	left: -26px;
+}
+header:hover .brain{
+	top: 39px;
 }
